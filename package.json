@@ -1,5 +1,5 @@
 {
-  "name": "react-nanorouter",
+  "name": "@izumisy/react-nanorouter",
   "version": "1.0.0",
   "description": "Terribly simple router for React",
   "main": "index.js",
