@@ -1,2 +1,4 @@
 tests/
 .circleci/
+babel.config.js
+jest.config.js
