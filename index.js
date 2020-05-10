@@ -16,7 +16,7 @@ export const useRouter = (routes) => {
   const router = nanorouter({ default: "/" })
 
   Object.keys(routes).forEach(path => {
-    router.on(path, param => { nextComponent.current = routes[path] })
+    router.on(path, param => { nextComponent.current = routes[path](history.current) })
   })
 
   router.emit(currentPath)

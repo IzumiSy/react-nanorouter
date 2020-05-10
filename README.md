@@ -10,8 +10,8 @@ import { UsersPage } from './pages/users'
 
 function App() {
   const [history, router] = useRouter({
-    '/products': <ProductsPage />,
-    '/users': <UsersPage />,
+    '/products': (history) => <ProductsPage />,
+    '/users': (history) => <UsersPage />,
   })
 
   return (
