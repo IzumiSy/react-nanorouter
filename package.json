@@ -1,0 +1,23 @@
+{
+  "name": "react-nanorouter",
+  "version": "1.0.0",
+  "description": "Terribly simple router for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzumiSy/react-nanorouter.git"
+  },
+  "keywords": [
+    "react",
+    "router"
+  ],
+  "author": "IzumiSy (Seiya IZUMI)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IzumiSy/react-nanorouter/issues"
+  },
+  "homepage": "https://github.com/IzumiSy/react-nanorouter#readme"
+}
