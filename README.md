@@ -1,4 +1,6 @@
 # react-nanorouter
+[![react-nanorouter](https://circleci.com/gh/IzumiSy/react-nanorouter.svg?style=svg)](https://github.com/IzumiSy/react-nanorouter)
+
 Terribly simple router for React
 
 ## Example
