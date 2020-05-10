@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/IzumiSy/react-nanorouter/issues"
   },
-  "homepage": "https://github.com/IzumiSy/react-nanorouter#readme"
+  "homepage": "https://github.com/IzumiSy/react-nanorouter#readme",
+  "dependencies": {
+    "history": "^4.10.1",
+    "nanorouter": "^4.0.0",
+    "react": "^16.13.1"
+  }
 }
