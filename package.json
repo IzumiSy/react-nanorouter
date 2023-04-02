@@ -4,7 +4,7 @@
   "description": "Terribly simple router for React",
   "main": "build/index.js",
   "scripts": {
-    "release": "npm run build && npm publis",
+    "release": "npm run build && npm publish",
     "test": "jest",
     "build": "swc ./index.js --out-dir build"
   },
