@@ -6,7 +6,7 @@
 Terribly simple router for React
 
 ## Example
-Only `useReactor` function is available.
+Only `useRouter` function is available.
 ```javascript
 import { useRouter } from 'react-nanorouter'
 import { ProductsPage } from './pages/products'
