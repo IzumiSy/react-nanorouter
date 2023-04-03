@@ -25,8 +25,10 @@
   "homepage": "https://github.com/IzumiSy/react-nanorouter#readme",
   "dependencies": {
     "history": "^4.10.1",
-    "nanorouter": "^4.0.0",
-    "react": "^16.13.1"
+    "nanorouter": "^4.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8 || ^17.0 || ^18.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.9.6",
