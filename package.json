@@ -6,9 +6,11 @@
   "scripts": {
     "release": "npm run build && npm publish",
     "test": "jest",
-    "build": "swc ./index.js --out-dir build"
+    "build": "esbuild ./index.js --minify --bundle --outdir=build"
   },
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IzumiSy/react-nanorouter.git"
@@ -31,12 +33,11 @@
   "devDependencies": {
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
-    "@swc/cli": "^0.1.62",
-    "@swc/core": "^1.3.42",
     "@testing-library/jest-dom": "^5.7.0",
     "@testing-library/react": "^10.0.4",
     "@testing-library/react-hooks": "^3.2.1",
     "babel-jest": "^26.0.1",
+    "esbuild": "^0.17.15",
     "jest": "^26.0.1",
     "react-dom": "^16.13.1",
     "react-test-renderer": "^16.13.1"
