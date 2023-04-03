@@ -1,6 +1,6 @@
 {
   "name": "@izumisy/react-nanorouter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Terribly simple router for React",
   "main": "build/index.js",
   "scripts": {
