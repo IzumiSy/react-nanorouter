@@ -1,5 +1,8 @@
 {
   "minify": true,
+  "module": {
+    "type": "commonjs"
+  },
   "jsc": {
     "minify": {
       "compress": {
